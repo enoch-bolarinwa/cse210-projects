@@ -4,7 +4,6 @@ class Program
     {
         static void Main(string[] args)
         {
-            
             var video3 = new Video ("You Got Time", "Dunsin Oyekan", 3000);
             var video2 = new Video ("In His Presence", "Bidemi Olaoba", 1500);
             var video1 = new Video ("Mori Anu Gba", "Tolucci", 1700);
@@ -14,7 +13,7 @@ class Program
             video1.AddComment(new Comment ("Ayomikun Temitope", "I have truly obtained mercies."));
 
             video3.AddComment(new Comment ("Imole Esther", "The lyrics are captivating."));
-            video2.AddComment(new Comment ("Tope Deborah", "May you continue to be a vessel in God’ hand"));
+            video2.AddComment(new Comment ("Tope Deborah", "May you continue to be a vessel in God's hand"));
             video1.AddComment(new Comment ("Shade Lukmon", "Mercy can truly break protocol"));
 
             video3.AddComment(new Comment ("Segun Farinto", "I like the lyrics that say he got time and season in His hands."));
